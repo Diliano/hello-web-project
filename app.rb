@@ -27,4 +27,11 @@ class Application < Sinatra::Base
     return names
   end
 
+  post '/sort-names' do
+    names = params[:names]
+    sorted_names = names.split(",").sort.join(",")
+
+    return sorted_names
+  end
+
 end
