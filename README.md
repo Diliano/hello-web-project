@@ -86,3 +86,20 @@ Create a sequence diagram of the program you've created in the previous section.
 ## POST /sort-names Sequence Diagram
 
 ![](/sort_names_sequence_diagram.png)
+
+## Exercise
+
+In the project `hello_web_project`.
+
+Test-drive and update the `GET /hello` route so it returns the greeting message as an HTML page:
+
+```html
+<html>
+  <head></head>
+  <body>
+    <h1>Hello!</h1>
+  </body>
+</html>
+```
+
+Then, make sure your server is running using `rackup` and use your web browser to access the page.
